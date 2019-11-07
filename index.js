@@ -48,5 +48,5 @@ const [, , , , , indg, ] = colors;
 const [name, color, song, job, partner] = Object.values(muppet)
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
-const [k_name, k_color, k_album, k_job, k_partner] = Object.values(k_muppet)
+const [, k_color, , k_job, k_partner] = Object.values(k_muppet)
 const [, song_2, , song_4] = Object.values(k_muppet.k_album.the_muppet_movie)
